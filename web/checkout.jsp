@@ -17,14 +17,47 @@
     <body>
         <div>
             <form name="orderForm" method="POST" action="fs">
-                <table>
+                <table class="mainTable">
                     <tr class ="row1">
-                        <td class="cashDueWindow">$9.86</td>
+                        <td class="cashDueWindow">$0.00</td>
 
                         <td class="row1col3" colspan="2">Food Service Calculator</td>
                     </tr>
                     <tr>
-                        <td>yo</td>
+                        <td>
+                            <table class="foodTable">
+                                <tr>
+                                    <td style="background-color: blue; color: white; font-weight: bold;">
+                                        Hamburger
+                                    </td>
+                                    <td>
+                                        Chicken Sandwich
+                                    </td>
+                                    <td>
+                                        Grilled Chicken
+                                    </td>
+                                    <td>
+                                        Fried Chicken
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Fries
+                                    </td>
+                                    <td>
+                                        Salad
+                                    </td>
+                                    <td>
+                                        Fruit
+                                    </td>
+                                    <td>
+                                        Soup
+                                    </td>
+                                </tr>
+                                    
+                                
+                            </table>
+                        </td>
                         <td></td>
                         <td class="row2col3" rowspan="3"><iframe></td>
                     </tr>

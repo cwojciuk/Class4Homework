@@ -9,7 +9,7 @@
 root { 
     display: block;
 }
-table{
+.mainTable{
     width: 70%;
     right: 15%;
     left: 15%;
@@ -17,13 +17,24 @@ table{
     border-left-style: solid;
     border-left-width: 3px;
     border-left-color: #333333;
-    background-color: #cc0000;
+    background-color: #cccccc;
+    column-rule-width: 0;
+    column-rule-style: none;
+}
+.foodTable {
+    width: 100%;
+    column-gap: 15px;
+    column-rule-width: 15px;
+    column-rule-style: solid;
 }
 td {
-    border-width: 2px;
-    border-style: solid;
-    margin-right: 0px;
-    margin-left: 0px;
+    width: 25%;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+   
+    margin-right: 100px;
+    margin-left: 100px;
     margin-bottom: 0px;
     margin-top: 0px;
     
@@ -31,15 +42,18 @@ td {
     padding-left: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 .cashDueWindow {
-    background-color: #666666;
+    background-color: #003366;
     
     text-align: center;
     vertical-align: middle;
     letter-spacing: 2px;
     width: 40%;
-    
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: 52px;
     font-weight: bolder;
@@ -53,13 +67,36 @@ td {
     text-align: left;
     vertical-align: middle;
     letter-spacing: 1px;
-    background-color: #999999;
-    
+    background-color: #99ccff;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-weight: bolder;
     font-size: 36px;
-    color: #cccccc;
+    color: #333333;
 }
 .row2col3 {
-    width: 40%;
+    width: 25%;
+}
+iframe {
+    width: 100%;
+    
+    
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
 }
